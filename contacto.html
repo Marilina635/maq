@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Maquinarias Marlene</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #333;
+        }
+        .contact-info {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Contacto</h1>
+    <div class="contact-info">
+        <p><strong>Nombre de la Empresa:</strong> Maquinarias Marlene</p>
+        <p><strong>Teléfono:</strong> 3884869773</p>
+        <p><strong>Dirección:</strong> Jujuy Monterrico 9 de Julio y Canada 1292 </p>
+    </div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambiar Color de Fondo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff; /* Color de fondo inicial */
+            transition: background-color 0.5s; /* Transición suave */
+        }
+        h1 {
+            color: #333;
+        }
+        button {
+            padding: 10px 15px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #4CAF50; /* Color del botón */
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #45a049; /* Color del botón al pasar el ratón */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Cambiar el Color de Fondo</h1>
+    <button id="changeColorButton">Cambiar a Celeste</button>
+
+    <script>
+        document.getElementById('changeColorButton').addEventListener('click', function() {
+            document.body.style.backgroundColor = '#87CEEB'; // Cambia el color de fondo a celeste
+        });
+    </script>
+
+</body>
+</html>
